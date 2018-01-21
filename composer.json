@@ -1,0 +1,15 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "electrolinux/phpquery": "^0.9.6",
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : ""
+        }
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "dev-master"
+    }
+}
