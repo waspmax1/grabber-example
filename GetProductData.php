@@ -19,7 +19,7 @@ class GetProductData
      * @param array $page
      * @return array
      */
-    public function getProductImage(array $page)
+    public function parseProduct(array $page)
     {
         $this->page = $page;
 

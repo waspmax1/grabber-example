@@ -1,4 +1,4 @@
-#E-shop parser example
+# E-shop parser example
 ## Using:
 1) Guzzle
 2) PhpQuery
@@ -19,6 +19,6 @@
     $productData = new GetProductData();
     
     $productPageData = $productPage->getProductPage('linksFile.txt', '127.0.0.1:8080');
-    $productPageImage = $productData->getProductImage($productPageData);
+    $productPageImage = $productData->parseProduct($productPageData);
     $productData->saveProduct('folderName', $productPageImage);
     
