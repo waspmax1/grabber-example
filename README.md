@@ -19,6 +19,6 @@
     $productData = new GetProductData();
     
     $productPageData = $productPage->getProductPage('linksFile.txt', '127.0.0.1:8080');
-    $productPageImage = $productData->parseProduct($productPageData);
-    $productData->saveProduct('folderName', $productPageImage);
+    $parsedProduct = $productData->parseProduct($productPageData);
+    $productData->saveProduct('folderName', $parsedProduct);
     
